@@ -44,3 +44,11 @@ zip:
 clean:
 	rm -f *.pyc
 	rm -f *.tmp
+
+login:
+	for line in $$(cat /u/z/users/cs327e/$$USER/.zinfo); \
+ 	do \
+		PASSWORD=$$line; \
+	done \
+	&& echo $$PASSWORD \
+	&& mysql -h z -u $$USER -p$$PASSWORD
