@@ -1,0 +1,67 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module WCDB2</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>WCDB2</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/v/filer4b/v20q001/xiaolong/gitrepo/cs327e-wcdb/WCDB2.py">/v/filer4b/v20q001/xiaolong/gitrepo/cs327e-wcdb/WCDB2.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;-------<br>
+#&nbsp;imports<br>
+#&nbsp;-------</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="lxml.etree.html">lxml.etree</a><br>
+</td><td width="25%" valign=top><a href="_mysql.html">_mysql</a><br>
+</td><td width="25%" valign=top><a href="getpass.html">getpass</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-escape_quote"><strong>escape_quote</strong></a>(s)</dt><dd><tt>Utility&nbsp;to&nbsp;escape&nbsp;all&nbsp;double&nbsp;quotes&nbsp;of&nbsp;a&nbsp;string&nbsp;that&nbsp;is&nbsp;used&nbsp;as<br>
+a&nbsp;string&nbsp;literal&nbsp;in&nbsp;a&nbsp;SQL&nbsp;statement.</tt></dd></dl>
+ <dl><dt><a name="-get_text"><strong>get_text</strong></a>(node)</dt><dd><tt>Utility&nbsp;to&nbsp;get&nbsp;the&nbsp;text&nbsp;from&nbsp;a&nbsp;ElementTree&nbsp;node,&nbsp;return&nbsp;""""<br>
+if&nbsp;there&nbsp;is&nbsp;no&nbsp;text</tt></dd></dl>
+ <dl><dt><a name="-login"><strong>login</strong></a>()</dt><dd><tt>Modified&nbsp;from&nbsp;cs327e/examples/Login.py<br>
+login&nbsp;to&nbsp;the&nbsp;database&nbsp;of&nbsp;the&nbsp;user&nbsp;who&nbsp;runs&nbsp;the&nbsp;program<br>
+return&nbsp;a&nbsp;mysql&nbsp;connection&nbsp;object</tt></dd></dl>
+ <dl><dt><a name="-query"><strong>query</strong></a>(c, s)</dt><dd><tt>This&nbsp;is&nbsp;copied&nbsp;from&nbsp;the&nbsp;cs327e/examples/Query.py<br>
+c&nbsp;is&nbsp;a&nbsp;mysql&nbsp;connection&nbsp;object<br>
+s&nbsp;is&nbsp;query&nbsp;string<br>
+return&nbsp;a&nbsp;tuple&nbsp;of&nbsp;tuples</tt></dd></dl>
+ <dl><dt><a name="-wcdb2_export"><strong>wcdb2_export</strong></a>(c)</dt><dd><tt>export&nbsp;a&nbsp;DB&nbsp;to&nbsp;an&nbsp;ElementTree<br>
+c&nbsp;is&nbsp;mysql&nbsp;connection&nbsp;object&nbsp;<br>
+returns&nbsp;outroot,&nbsp;an&nbsp;Element&nbsp;Tree</tt></dd></dl>
+ <dl><dt><a name="-wcdb2_import"><strong>wcdb2_import</strong></a>(root)</dt><dd><tt>Import&nbsp;from&nbsp;ElementTree&nbsp;to&nbsp;the&nbsp;user's&nbsp;database<br>
+root&nbsp;is&nbsp;the&nbsp;root&nbsp;of&nbsp;the&nbsp;ElementTree&nbsp;object</tt></dd></dl>
+ <dl><dt><a name="-wcdb2_read"><strong>wcdb2_read</strong></a>(r)</dt><dd><tt>r&nbsp;is&nbsp;reader<br>
+returns&nbsp;root,&nbsp;an&nbsp;Element&nbsp;Tree<br>
+copied&nbsp;from&nbsp;WCDB1.py</tt></dd></dl>
+ <dl><dt><a name="-wcdb2_solve"><strong>wcdb2_solve</strong></a>(r, w)</dt><dd><tt>read,&nbsp;print<br>
+r&nbsp;is&nbsp;a&nbsp;reader<br>
+w&nbsp;is&nbsp;a&nbsp;writer</tt></dd></dl>
+ <dl><dt><a name="-wcdb2_write"><strong>wcdb2_write</strong></a>(root, w)</dt><dd><tt>w&nbsp;is&nbsp;writer<br>
+takes&nbsp;in&nbsp;root<br>
+writes&nbsp;XML&nbsp;from&nbsp;Element&nbsp;Tree<br>
+copied&nbsp;from&nbsp;WCDB1.py</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>create_table</strong> = ['<font color="#c040c0">\n</font>DROP TABLE IF EXISTS Crisis;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS Organization;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS Person;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS Location;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS HumanImpact;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS ResourceNeeded;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS WaysToHelp;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS ExternalResource;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS CrisisOrganization;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS OrganizationPerson;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS PersonCrisis;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS CrisisKind;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS OrganizationKind;', '<font color="#c040c0">\n</font>DROP TABLE IF EXISTS PersonKind;', '<font color="#c040c0">\n</font>CREATE TABLE Crisis (<font color="#c040c0">\n\t</font>id<font color="#c040c0">\t\t</font>char(100)<font color="#c040c0">\t</font>NOT NULL<font color="#c040c0">\n\t</font>...ime<font color="#c040c0">\t\t</font>time,<font color="#c040c0">\n\t</font>economic_impact<font color="#c040c0">\t</font>char(100)<font color="#c040c0">\t</font>NOT NULL<font color="#c040c0">\n</font>);', '<font color="#c040c0">\n</font>CREATE TABLE Organization (<font color="#c040c0">\n\t</font>id<font color="#c040c0">\t\t</font>char(100)<font color="#c040c0">\t</font>NOT ...har(100) NOT NULL,<font color="#c040c0">\n\t</font>country<font color="#c040c0">\t</font>char(100) NOT NULL<font color="#c040c0">\n</font>);', '<font color="#c040c0">\n</font>CREATE TABLE Person (<font color="#c040c0">\n\t</font>id<font color="#c040c0">\t\t</font>char(100)<font color="#c040c0">\t</font>NOT NULL<font color="#c040c0">\n\t</font>...char(100)<font color="#c040c0">\t</font>NOT NULL<font color="#c040c0">\n\t\t</font>REFERENCES PersonKind(id)<font color="#c040c0">\n</font>);', '<font color="#c040c0">\n</font>CREATE TABLE Location (<font color="#c040c0">\n\t</font>id<font color="#c040c0">\t</font>int<font color="#c040c0">\t</font>NOT NULL AUTO_I...00),<font color="#c040c0">\n\t</font>region<font color="#c040c0">\t\t\t</font>char(100),<font color="#c040c0">\n\t</font>country<font color="#c040c0">\t\t\t</font>char(100)<font color="#c040c0">\n</font>);', '<font color="#c040c0">\n</font>CREATE TABlE HumanImpact (<font color="#c040c0">\n\t</font>id<font color="#c040c0">\t</font>int NOT NULL AUT...ype<font color="#c040c0">\t\t</font>char(100)<font color="#c040c0">\t</font>NOT NULL,<font color="#c040c0">\n\t</font>number<font color="#c040c0">\t</font>int<font color="#c040c0">\t\t</font>NOT NULL<font color="#c040c0">\n</font>);', '<font color="#c040c0">\n</font>CREATE TABLE ResourceNeeded (<font color="#c040c0">\n\t</font>id<font color="#c040c0">\t</font>int NOT NULL ...ULL<font color="#c040c0">\n\t\t</font>REFERENCES Crisis(id),<font color="#c040c0">\n\t</font>description<font color="#c040c0">\t</font>text<font color="#c040c0">\n</font>);', ...]</td></tr></table>
+</body></html>

@@ -1,0 +1,35 @@
+<WorldCrises>
+  <Crisis crisisIdent="Shirley_WAR_2013">
+    <Name>2013 Great Attack of Shirley</Name>
+    <Kind crisisKindIdent="WAR"/>
+    <Location>
+      <Locality>Houston</Locality>
+      <Country>USA</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2013-12-01</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>2147483647</Number>
+    </HumanImpact>
+    <EconomicImpact></EconomicImpact>
+    <ResourceNeeded></ResourceNeeded>
+    <WaysToHelp></WaysToHelp>
+    <ExternalResource/>
+    <RelatedPersons/>
+    <RelatedOrganizations/>
+  </Crisis>
+  <CrisisKind crisisKindIdent="WAR">
+    <Name>War</Name>
+    <Description>An organized and often "prolonged conflict is carried out by states and/or non-state actors.</Description>
+  </CrisisKind>
+  <OrganizationKind organizationKindIdent="HO">
+    <Name>Humanitarian Organization</Name>
+    <Description>Organization that provides humanitarian aid</Description>
+  </OrganizationKind>
+  <PersonKind personKindIdent="PR">
+    <Name>President</Name>
+    <Description>Leader or the government of some countries</Description>
+  </PersonKind>
+</WorldCrises>

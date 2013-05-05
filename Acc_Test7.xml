@@ -1,0 +1,83 @@
+<WorldCrises>
+  <Crisis crisisIdent="Pikachu_WAR_2002">
+    <Name>The Great Pikachu War</Name>
+    <Kind crisisKindIdent="WAR"/>
+    <Location>
+      <Locality></Locality>
+      <Region>Kanto</Region>
+    </Location>
+    <StartDateTime>
+      <Date>2002-12-01</Date>
+      <Time>00:00:00</Time>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Deaths</Type>			
+      <Number>500</Number>           
+    </HumanImpact>    
+    <EconomicImpact>""</EconomicImpact>   <!--double quotes-->					
+    <ExternalResources></ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent="AKetchum"/>  
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="STP"/>
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Organization organizationIdent="STP">
+    <Name>Save the Pikachu's</Name>
+    <Kind organizationKindIdent="HO"/>
+    <Location>
+      <Country>Kanto"d"</Country>     <!--double quotes-->
+    </Location>
+  <History>
+    Too many "Pikachu's" have been forced to battle or evolved into Raichu's.  <!--double quotes-->
+  </History>
+  <ContactInfo>
+    <Telephone>1234567890</Telephone>
+    <Fax></Fax>
+    <Email>professor@oak.com</Email>     
+    <PostalAddress>
+      <StreetAddress>1300 Weezing Way</StreetAddress>
+      <Locality></Locality>
+      <Region>Kanto</Region>
+      <PostalCode></PostalCode>
+      <Country></Country>
+    </PostalAddress>
+  </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://abc.com</ImageURL>
+    </ExternalResources>
+  </Organization>
+
+<Person personIdent="AKetchum">
+  <Name>
+    <FirstName>Ash</FirstName>
+    <LastName>Ketchum</LastName>
+  </Name>
+  <Kind personKindIdent="LD"/>
+  <Location>
+    <Locality></Locality>
+    <Region>Kanto'c'"</Region>  <!--double quotes-->
+    <Country></Country>
+  </Location>
+  <ExternalResources>
+  </ExternalResources>
+</Person>
+
+<CrisisKind crisisKindIdent="WAR">
+  <Name>War</Name>
+  <Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
+</CrisisKind>
+
+<OrganizationKind organizationKindIdent="HO">
+  <Name>Humanitarian Organization</Name>
+  <Description>Organization that provides humanitarian aid</Description>
+</OrganizationKind>
+
+<PersonKind personKindIdent="LD">
+  <Name>Leader</Name>
+  <Description>Leader of an organization</Description>
+</PersonKind>
+
+</WorldCrises>

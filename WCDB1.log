@@ -1,0 +1,391 @@
+commit 626a5070cd38cf038d8b91007198b668829ef992
+Merge: 2532b89 dfc016f
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Wed Mar 6 20:36:04 2013 -0600
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+    
+    Conflicts:
+    	WCDB1.xml
+
+commit 2532b8922006917879abbeb89f89b12e144e2546
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Wed Mar 6 20:23:53 2013 -0600
+
+    update the xml for the new xsd
+
+commit dfc016f73a3db982e9a6d8275795bfea1dd3ee13
+Author: Francisco Prado III <fjprado3@cs.utexas.edu>
+Date:   Wed Mar 6 20:12:48 2013 -0600
+
+    change the schema so that RelatedPerson's are grouped in RelatedPersons, similar for organization and cirsis
+
+commit fd7fdf79238b2abba4664e24beac1e7c51efedc3
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Mar 6 19:50:09 2013 -0600
+
+    Change ID for Reba McEntire and change ID for Terrorist Organization kind to TORG
+
+commit 6951392b2ea8c7f4d3efa68ec8313ab41a10ad51
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Mar 6 13:00:39 2013 -0600
+
+    Change location types to not unbounded
+
+commit d15d8d574cc2802107eebca742928a4db49bb5cf
+Author: Collin Murphy <cul8r2fast4u@collin-murphys-mac-pro.local>
+Date:   Wed Mar 6 12:11:10 2013 -0600
+
+    Changed bounds for location elements in XSD and removed empty location tags in XML
+
+commit ece7ed903131ddc0f1bc051b89de8a1584e01b7f
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:55:35 2013 -0600
+
+    remove extra ImageURL element from PersonType in .xsd file
+
+commit b75974ab49af941100b6233322497895a1c1257d
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:53:03 2013 -0600
+
+    forgot backslash in closing tag
+
+commit 2b1d965ab0c3b58cf97a2b407ef5c4e5d684269e
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:52:00 2013 -0600
+
+    enclose all URLs with a ExternalResources element
+
+commit 4b7d77776430580fdf5cccc2bc052c28d2e67146
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:40:32 2013 -0600
+
+    Misspelled tag name
+
+commit fe30088fcfc47a6229f14f662f98f451c7ef26f2
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:39:35 2013 -0600
+
+    decompose name element
+
+commit 23b53df5b104d877acc59e850e34b1e708932c2a
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:15:06 2013 -0600
+
+    slight changes to the refs of crises
+
+commit 181fdeafef75ea6d4b6163a2558307b5c6feafda
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 22:06:09 2013 -0600
+
+    updated crisis with Franky's file
+
+commit 1dcce4560d0b579240dd329dc5e396f6d0ac1748
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 21:48:19 2013 -0600
+
+    fixed all the type and mismath. now the xml validates!!!
+
+commit c993c9dd7334ccb5d578500546d9760a374ab8a1
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 21:22:21 2013 -0600
+
+    added missing crisisKindIdent
+
+commit e2f85195971fa35573dade0ff0a5185ac04a3f07
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 20:51:55 2013 -0600
+
+    merged crisis info Franky added
+
+commit 76b306f32548af9fb78f45cba84441e2c5c0919c
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 16:58:12 2013 -0600
+
+    matched some IDs and commented off some IDrefs that is not part of our db
+
+commit 7ac9202b559a81c373241af9e32039db1575b056
+Author: Collin Murphy <cbmurphy@utexas.edu>
+Date:   Tue Mar 5 15:17:39 2013 -0600
+
+    Fixed indentation errors
+
+commit 78c0645f42d370e531e559d136f99fa5cdaffeae
+Author: Collin Murphy <cbmurphy@utexas.edu>
+Date:   Tue Mar 5 15:08:34 2013 -0600
+
+    Added references to persons
+
+commit a70e8b6c917bbe80321a1510023da53805276987
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 14:31:23 2013 -0600
+
+    fixed some validation error and added risisKindIdent definitions closes
+
+commit e9b92a048bebbddc2f90f72f81968cb64d42546b
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 13:12:53 2013 -0600
+
+    fixed Date Time and Location error closes #20
+
+commit a08ae4f8b5754e7bec237d8b4aaa54cca655b162
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 12:49:16 2013 -0600
+
+    fix escape sequences in some URL closes #19
+
+commit 410a4b11872526bfdd08d21a7371babf4682735e
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 21:27:27 2013 -0600
+
+    Add all organizations to the xml
+
+commit c30e7d92161bad753c22c7345e40fd777de14969
+Merge: 850a2ad a205d2f
+Author: FrankyPrado <fjprado3@hotmail.com>
+Date:   Mon Mar 4 21:25:05 2013 -0600
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+
+commit 850a2ad39cf76208b1a1cdb49282f86e9a17ec3b
+Author: FrankyPrado <fjprado3@hotmail.com>
+Date:   Mon Mar 4 21:24:01 2013 -0600
+
+    Added Persons and Organizations, missing some Crises
+
+commit a205d2f79807f0afc4345bcb12b205b6acf6d084
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Mar 4 20:56:58 2013 -0600
+
+    Jianyong misspelled my name
+
+commit 095f137c3bc5099eccb2fb2b49ef52124912c761
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Mar 4 20:52:41 2013 -0600
+
+    Updated WCDB1.html for two new functions
+
+commit f6266e04ce5ac446307f04cb94cd0d22bdebb3f4
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Mar 4 20:49:40 2013 -0600
+
+    Updated TestWCDB1.out
+
+commit 785bb92fdbd3e5604e87a4c8107ac80f5b839a99
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Mar 4 20:46:59 2013 -0600
+
+    Changed WCDB1.py to two functions. Added unit tests for both.
+
+commit 88c69e3e064532657917b34743e400e90f85e575
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 19:49:51 2013 -0600
+
+    Change datetime of crisis to a startdatetime and an optional endatetime, each datetime have a mandatory date and an optional time
+
+commit b50fb3b31a81b0ef4613f2631356958ef9b45151
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 19:44:56 2013 -0600
+
+    correct pattern for PhoneNumber
+
+commit f3dc0cbe409de8117f18744f74cffd03dccd7b66
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 19:20:39 2013 -0600
+
+    using question mark for the pattern 'this or nothing' for Email and PhoneNumber
+
+commit 64815fb2e89f7b3768badd54a5b2a35634cb05e3
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 18:32:53 2013 -0600
+
+    Add patterns for phone/fax number and validate, make phone/fax/email in contact to be a list of zero or more. closes #17
+
+commit 7df73aa47a85e9a65e3ed5943d7a8c5e57656d90
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 18:16:47 2013 -0600
+
+    Add pattern for Email and validate, closes #16
+
+commit 6b0c75b567b3ea5a9c5237e719ef19eeddda28a4
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 18:15:10 2013 -0600
+
+    Add organization to the dummy xml, closes #18
+
+commit 4d4ed6e0dcbab072c5e6c04ea478215f27fad893
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Mar 4 17:05:51 2013 -0600
+
+    updated the readme with info for the google form
+
+commit d244722b9a94fc145cbb10349fd9a3f6125accbf
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 15:47:13 2013 -0600
+
+    create pattern for URLs, closes #15
+
+commit 26754a34131cc73d218b9c3a5a7d4ebd7d5901ee
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 15:17:16 2013 -0600
+
+    add RelatedXXX to dummy xml and validate. closes #13, closes #14
+
+commit b99f85adc4dd663c5c4e3c84748b155d40c8fc62
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 14:54:22 2013 -0600
+
+    extend the dummy xml and slight changes to xsd, and they validate without related persons/organizations added.
+
+commit 0a9e38ccb44516702c988657396395c52e19bad6
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 14:19:36 2013 -0600
+
+    According to project of previous years, move postal address to contact info and make location to be only vague description
+
+commit b30f907e558c1346cfc151cb5b6942411bf22fdb
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 13:49:28 2013 -0600
+
+    add the child element Description to XXXKind types to make more sense to use key/keyref
+
+commit dee839febe9296bad23a261307bddc36498311cc
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 13:46:06 2013 -0600
+
+    change the order or Organization and Person to make it consistent
+
+commit 0309679e03d292c1ad00fec0e891ed8a95525ad5
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 23:24:04 2013 -0600
+
+    added some tags in the dummy xml
+
+commit 141105cdb6fe9d1116fa2715b3afa30508072f20
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 23:22:12 2013 -0600
+
+    added ID attribute to the CrisisType, PersonType and OrganizationType
+
+commit 8b2070a7a6884aeaadd9be99e7c6985d078ebab3
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 18:15:20 2013 -0600
+
+    keyref tag name update. now validates with xmllint
+
+commit ea0bd4670eb3c8e285aea606b7a9ed7e351003a5
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:39:26 2013 -0600
+
+    added a dummy xml file
+
+commit 83e2ec10ec41d4db7f726f5228906d4e1d11ce06
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:38:21 2013 -0600
+
+    fixed a typo
+
+commit ab4f0202358471765612c231197a4350ac43af13
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:30:07 2013 -0600
+
+    additional update for validation
+
+commit 5fc04500738009d3d4c041e5425fec58fc340e30
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:17:50 2013 -0600
+
+    fix tag matches and attribute for validation
+
+commit 56530a4f80f06117fca5c9c03bec10a6686291f2
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:02:18 2013 -0600
+
+    added validation scripts to the makefile
+
+commit 512354d6ddc6e3358a318950183169b8bcac1b86
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 3 16:30:49 2013 -0600
+
+    fix merge issue
+
+commit f1bc2415dce302a33e73933ff7b038cceb1cd558
+Merge: 82dc194 fe6c443
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 3 16:27:48 2013 -0600
+
+    merge
+
+commit 82dc194e24a7cb632661780edd0a4441dbdf7880
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 3 16:26:40 2013 -0600
+
+    finish draft of xsd schema
+
+commit fe6c4438fc23678b4f0d3dd81bb579b84d8c0061
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 14:57:18 2013 -0600
+
+    minor syntax update
+
+commit fccb732e20703826b81f12893866ac18ac6df1e8
+Merge: 922a36f 34a8774
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Thu Feb 28 21:26:25 2013 -0600
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit 922a36fb260dc26a714e8f7c2509e9cf0518629f
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Thu Feb 28 21:26:07 2013 -0600
+
+    progress on xsd file
+
+commit 34a87746c421a6da442952c55aa954a6dd1be3b0
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 21:11:20 2013 -0600
+
+    doc closes #7
+
+commit 8b2d7b3c921909a2d4814d36c8ba6fec77d1a0ee
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 21:09:38 2013 -0600
+
+    acceptance tests closes #4
+
+commit f04a3f697fb0910e2b65cdfcb7d0a38e1713d965
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 20:41:56 2013 -0600
+
+    unit tests and output closes #3
+
+commit 29178db560681583c9dff652126473087daa16ee
+Merge: 9c683e8 a095886
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 20:34:29 2013 -0600
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit 9c683e8ba5af6cb74f0ff3c544510b26eb44e991
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 20:34:05 2013 -0600
+
+    created WCDB1.py closes #6
+
+commit a0958869ac9b2ca4c6eb94b10756482d516ab117
+Author: Collin Murphy <cbmurphy@utexas.edu>
+Date:   Thu Feb 28 20:17:39 2013 -0600
+
+    Initial push for XSD
+
+commit 168102c5cfe8127accb7331f86a09038a422198f
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 19:50:03 2013 -0600
+
+    added makefile and RunWCDB1.py
+
+commit decb902a696d8872498b9f5a3e2e2e3776af985e
+Author: Daniel Meng <jmeng@cs.utexas.edu>
+Date:   Thu Feb 28 17:26:30 2013 -0800
+
+    Initial commit

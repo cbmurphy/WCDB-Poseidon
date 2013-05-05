@@ -1,0 +1,1376 @@
+commit b81361450e25dd521af5ea4ea440611568b09b9e
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Apr 24 16:28:21 2013 -0500
+
+    put our xml at the last place so it will not be overwritten
+
+commit 1bb9e03049e98acbb606168cdfd6ccf501fdd6f2
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Apr 24 16:27:27 2013 -0500
+
+    debug the export, change tag name form ExternalResource to ExternalResources
+
+commit 2a2c66ce729f0984744176700598354dce738381
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Apr 24 16:16:05 2013 -0500
+
+    Update Bonsai and BLTN's xml and now they validate
+
+commit f518da0a05bf0f9b92e30e434151739cddd7f950
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Apr 24 14:30:07 2013 -0500
+
+    add a query option in makefile, updated the queries and the output html to make it more robust about US
+
+commit df1902c82a7b4536390014753bf8e897859f97aa
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Apr 24 14:19:34 2013 -0500
+
+    edit the makefile, edit team Virus's xml so that it validate, update the RunWCDB3.out.xml and input_list
+
+commit 1e196ce9b814c88555322520fac4aad21ca8a696
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Apr 24 13:56:58 2013 -0500
+
+    change permission
+
+commit 6f6e4b7fdd8b7946e7b07f3e73668e5e4d45fadd
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Apr 24 13:56:10 2013 -0500
+
+    update makefile and input_list file
+
+commit 1417a064fd7bbfa3cbf80975b1a9d464340f64c8
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Apr 24 13:42:39 2013 -0500
+
+    pull the new xmls of all teams from the test-repo
+
+commit f54f3626912b759c6ebe9bc3ee7a4304118cb85e
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 22 22:36:12 2013 -0500
+
+    Add acceptance test, makefile, input-list for acceptance test, output of acceptance test
+
+commit 0f2b27d8652e46d9cd995b08cb23632e7c58cb90
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 22 22:30:30 2013 -0500
+
+    Finished queries and created html form
+
+commit 12d15f877aa327d83f7021dc67512e0ca8fd5468
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 22 22:03:16 2013 -0500
+
+    minor update
+
+commit 59aa37888bb9b5d11c07fc790108b0548ad03382
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 22 22:01:19 2013 -0500
+
+    unit test update and bug fix
+
+commit 4869acb4d6a1e40f17c22aa97a815dd8a58f6a6f
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 22 21:30:59 2013 -0500
+
+    move the import function to WCDB3.py
+
+commit a4c3163c66cd5ffc2d0d125cc8cd9f3be18e045a
+Merge: 64b2b35 1be23f0
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 22 21:26:27 2013 -0500
+
+    merge
+
+commit 64b2b35c0ac5d28f3a4980c003bdcdd951a892ac
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 22 21:14:44 2013 -0500
+
+    update unit test
+
+commit 1be23f0fce65bc7242013045f10f2924c44572dd
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 22 21:07:11 2013 -0500
+
+    some type in wcdb3_solve
+
+commit ab3395b96284e27fc5963619b4fd56d77b2c4682
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 22 20:23:39 2013 -0500
+
+    import form WCDB3_import, will replace with true code after WCDB3_import is fully debugged
+
+commit cbdbf34846ad969ef5dd7bef40cd0b677591303d
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 22 20:14:24 2013 -0500
+
+    import form WCDB3_import, will replace with true code after WCDB3_import is fully debugged
+
+commit ea90cb7c77d7421458653020e0f5fe1a3f2323ba
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Mon Apr 22 20:12:11 2013 -0500
+
+    Fixed bugs in import function
+
+commit 9d65c07aadb31a699377287abbb262f8a2911997
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 22 20:01:11 2013 -0500
+
+    final UML diagram in pdf
+
+commit a9ef751d3dd3fcdc51628096d173b58e30f4a2fb
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 22 19:45:44 2013 -0500
+
+    put WCDB3 import and export into WCDB3.py, change the wcdb3_solve function so it now import a list of xml then export only once.
+
+commit 1bf8b9505cd8998468c98dbb063d89ca32c17b60
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Mon Apr 22 19:36:25 2013 -0500
+
+    Changed default values of flags
+
+commit 2e6cb7f527fc95d84c84c94ef6ee0e8bc6241501
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Mon Apr 22 19:30:57 2013 -0500
+
+    Updated import function
+
+commit ff892f81b6e7e144a36836aaa418e6b66d8c838b
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Mon Apr 22 19:24:03 2013 -0500
+
+    Updated import function with completed merging
+
+commit 1383150f18b59c509f76ea60afcf8573a966468e
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 22 19:16:41 2013 -0500
+
+    up date the unit test
+
+commit 5be9b2bc9c28f9a3f7e5b033943520013ba040af
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Mon Apr 22 14:54:29 2013 -0500
+
+    Updated merging for import
+
+commit 464bca59dd21673668a3ef921e4c4a30f43cea08
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 22 14:43:07 2013 -0500
+
+    added more import test with different flags
+
+commit c029bceafcee68936e762d384aeac322a0e74599
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 22 14:30:16 2013 -0500
+
+    more test for import&merging
+
+commit 8ef649c8e048fbc0de94b5a6893ca38f8e07a1bb
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 22 14:13:00 2013 -0500
+
+    finish queries 1-20 and checked them againt the db
+
+commit 9625a244c9f6339b8ecdfba3cd7d9e1469e965a7
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 22 13:22:42 2013 -0500
+
+    rename a file
+
+commit 9e3c572511152483fbd86e43c021be327ab6f27a
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Mon Apr 22 10:46:50 2013 -0500
+
+    Updated merging
+
+commit 1fbd67a7bb39ce8f86768fd24c6211f3b1301f4a
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 22 00:53:30 2013 -0500
+
+    update the unit tests for the import
+
+commit 0cecc4a8f7baff01320e273bb69411494a97a5a1
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Apr 21 22:51:16 2013 -0500
+
+    add queries 7-11
+
+commit 3caedfaa756b8736e382e40d779a4568fbf61f66
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Fri Apr 19 16:18:20 2013 -0500
+
+    Updated makefile, import, and xmls
+
+commit ca9798e187972112acfddae79203b82ca7bb81fa
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Fri Apr 19 15:37:50 2013 -0500
+
+    Added make function to log in to mySQL automagically
+
+commit 90156e6937a06df1cf2f22f7ccb04ef47ae3c451
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Fri Apr 19 15:25:05 2013 -0500
+
+    Updated import and export functions
+
+commit bb30395435f9ec211cbee9ce5e51713ca4ad954b
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Fri Apr 19 10:29:45 2013 -0500
+
+    Modified makefile
+
+commit 39df78ef31fec9b7e16cf947eff92769a40cbda1
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Fri Apr 19 10:29:05 2013 -0500
+
+    Modified makefile
+
+commit ac25f24707b9882a0608060fcaeaf80fcadeb2ff
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Fri Apr 19 01:07:17 2013 -0500
+
+    Updated import module.
+
+commit 569c0a452a6e4163f0e5532275002a7f0b483527
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Fri Apr 19 01:01:11 2013 -0500
+
+    Modified makefile
+
+commit 7b5a878adb53174f1e75795ddad6061a06b4c3ce
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Fri Apr 19 00:34:20 2013 -0500
+
+    Added more to account for merging
+
+commit 1395330ff0ac033be9bd7e700986895f9d5a7ee2
+Merge: fa167b2 953eb3c
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Thu Apr 18 23:00:15 2013 -0500
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+
+commit fa167b2ce7f811858e48a5806a61934d43f98c2c
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Thu Apr 18 22:59:51 2013 -0500
+
+    created queries for 21-26, only 22-25 work so far
+
+commit 953eb3c5a8afc4fcc83fe3d16333455a9a20ea3f
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Thu Apr 18 22:59:50 2013 -0500
+
+    queries for all groups
+
+commit 24f77a13c4d8ea01d0d72e6f50967bab7da27bb4
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Thu Apr 18 22:02:44 2013 -0500
+
+    Began to edit for merging and created a test XML document
+
+commit 750e8bd18fc2ef29fd2cd817d5f7c2cbc8520f27
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Apr 18 21:56:41 2013 -0500
+
+    new TestWCDB3.py and clean up TestWCDB2.py
+
+commit 02aed5f7673df96c8b02104d243d293c45d2e4b6
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Apr 18 21:45:03 2013 -0500
+
+    added tow new simple unit tests for import
+
+commit 3d51333c95306cf85519fe340af46a574fe5e548
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Apr 18 20:57:25 2013 -0500
+
+    additional fix to the unit test
+
+commit 81803e85838c4a42969d6feff029e740d7200d8f
+Merge: dc43d1d 2c52bda
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Apr 18 20:45:02 2013 -0500
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit dc43d1d11c8a5365b99fe86f22238c436bc7001f
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Apr 18 20:44:47 2013 -0500
+
+    replaced all the import from file to import from string
+
+commit 2c52bdaef1636f5c98ec783c3d07b18a81f2c623
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Thu Apr 18 20:05:57 2013 -0500
+
+    edited errors in UML for WCDB3
+
+commit 40a11bc3d821b3530af012fe7f47daa00f28f57a
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Apr 18 19:45:29 2013 -0500
+
+    make RunWCDB2.py executable
+
+commit 9429115e63f90714329efa041cbcc8af7891c0a0
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 15 21:43:20 2013 -0500
+
+    update our xml to conform to the IDs
+
+commit 947454ca726da32f524705bd9fa1385544da81ba
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 15 20:23:26 2013 -0500
+
+    add our own xml
+
+commit c682cf160d64850632c392f09344961af8e22d1f
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 15 20:22:01 2013 -0500
+
+    add all other groups' xml
+
+commit d3a0412c74a6fa8a3ee411a581492be9dbe21cc0
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:59:20 2013 -0500
+
+    update readme file
+
+commit 9097c547fd3ef19ae5efce050311e5dd1e3e1522
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:53:30 2013 -0500
+
+    create the log and doc file
+
+commit 48f4c4893a830a33314b72b7887b6c92d36c4ff7
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:51:19 2013 -0500
+
+    create the Unittest output file
+
+commit 918f0b937e96dde843f274da94761c09cf414b71
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:48:52 2013 -0500
+
+    add comment for WCDB2.py and chmod for TestWCDB2.py
+
+commit 2a5700323207973abbd9b749f9e0e980f2f64421
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:17:34 2013 -0500
+
+    add the separate test output to repo
+
+commit 5d58007a55f7ee4d2b461109faa9292fc8ac39aa
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:16:44 2013 -0500
+
+    Create the concatenated acceptance test input and output
+
+commit 5e5cd5245e7f0e45c23a1ed8c20f658e9e6aa554
+Merge: 939d865 2a7149e
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:06:39 2013 -0500
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit 939d865af7fa0443aed9c0d056513773e9d91a35
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:06:26 2013 -0500
+
+    add start before .sh
+
+commit 44e220e10768d9a88a72d9cc69d2b680c68763e1
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:05:44 2013 -0500
+
+    add .sh to ignore lish
+
+commit 2a7149e9c01be8b4a5d113d1a6bb5f3eac0f98a4
+Merge: acc4f94 e45ddfc
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Tue Apr 2 23:04:45 2013 -0500
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+
+commit acc4f943185892dcab9256904dbce77196aa65b1
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Tue Apr 2 23:04:21 2013 -0500
+
+    Edited unit tests
+
+commit e45ddfc3550f016c0b2627776c5b3f614200d74b
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 23:03:50 2013 -0500
+
+    combine query, login, import and export to one file closes #44
+
+commit 22aa4265a6a24d6f169719c9d1e678fe95eeb8fe
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 22:47:48 2013 -0500
+
+    change acceptance test 9 to the original xml
+
+commit 3e0bbe114b980a65bbb47aab9fcbb75aa349a58f
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 22:45:21 2013 -0500
+
+    update comment
+
+commit 1dff6d80abf3442d757ab9a78e4b1e29b69e4161
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 22:41:39 2013 -0500
+
+    update some comments
+
+commit 3e3c37eb84776e8149267a8ecf8161ef40b5caf4
+Merge: 4941105 3d77699
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 22:25:33 2013 -0500
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+
+commit 494110582588df661cd06325ec4b36ee749dbccf
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 22:25:12 2013 -0500
+
+    added files RunWCDB2.py and edited WCDB2.py
+
+commit 3d77699700a92b0ce2be98a87772d8da4388f9e4
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 22:21:09 2013 -0500
+
+    fix typo
+
+commit 5bc8020ca2a60f29868b4c231e3c86e6b95704c8
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 22:18:12 2013 -0500
+
+    change PersonKindIdent to personKindIdent
+
+commit 88c0557a4fbe81b94e4ce4f2f3aaf036f8f9aa08
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Tue Apr 2 22:10:55 2013 -0500
+
+    Fixed a typo
+
+commit 17894212d1d5d4c70a6bd2f215cc2055bb190756
+Merge: dcf1584 90e8da9
+Author: Franky Prado <fjprado3@hotmail.com>
+Date:   Tue Apr 2 21:58:07 2013 -0500
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit dcf1584121d54d9755418cf9502a3f6cffbcca2b
+Author: Franky Prado <fjprado3@hotmail.com>
+Date:   Tue Apr 2 21:57:03 2013 -0500
+
+    Created new copies of the xml and xsd to fit required names
+
+commit 90e8da9e50fba6e557ea8e051ad56873c1a27da2
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 21:57:01 2013 -0500
+
+    related org, person, crisis done'
+
+commit e255d3598cd923a1ebcf2ba7b195dd617cfd5fbf
+Author: Franky Prado <fjprado3@hotmail.com>
+Date:   Tue Apr 2 21:40:06 2013 -0500
+
+    Created acceptance test 6-10
+
+commit 965a76ddb46b7e6e8720e668a253d304be429373
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 21:36:44 2013 -0500
+
+    started file WCDB2.py, imports from WCDB2_import.py and WCDB2_export.py
+
+commit f21f447532f25ede80f3773fda409861481657aa
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 21:30:31 2013 -0500
+
+    created new xmls from old xmls named RunWCDB2.in.xml and RunWCDB2.out.xml to meet naming standard
+
+commit 96177cdc3bf17b443b3c60cb1423322906ee089d
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 21:26:07 2013 -0500
+
+    modified makefile for WCDB2
+
+commit 7d1107b61330e87fdaca78b64e1c84151e1868de
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 21:19:16 2013 -0500
+
+    readded acceptance tests 3 and 4
+
+commit 2ee1f441eb2f899df29927a07eecab30b0e2be1a
+Merge: 4764403 5a20036
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 21:15:38 2013 -0500
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+
+commit 5a2003603513dc80947294b4dbed0f9b2a7fafd0
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 21:14:04 2013 -0500
+
+    add things related to the table ResourceNeeded, which is previously forgotten
+
+commit 476440333a38bf5d6fd4bd0cbb47acb86f0fa493
+Merge: 10cb614 6106fbb
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 21:07:12 2013 -0500
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+    not sure what is going on
+
+commit 10cb61408a26191ba88855c04b901c912a583521
+Merge: fd5cf8e cfcabe0
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 21:06:44 2013 -0500
+
+    changed acceptance tests
+
+commit 6106fbb7216bb1e8f3c6f095dc7b3cce81ccd372
+Merge: 5a2c6e2 cdecc6a
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Tue Apr 2 21:05:48 2013 -0500
+
+    Updated unit tests
+
+commit cdecc6ac4ea87b888c9957cb86c37210664541cb
+Author: Franky Prado <lxlstudent@gmail.com>
+Date:   Tue Apr 2 20:55:01 2013 -0500
+
+    Misnamed Acceptance test
+
+commit fd5cf8e1c525a88a13f38a8f913facc8bca47514
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Tue Apr 2 20:54:03 2013 -0500
+
+    added acceptance tests 4, 5
+
+commit cfcabe09c352a5b0ec01ece2c4a2da91cb24b4f1
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 20:40:04 2013 -0500
+
+    Added more acceptance tests, some with double quotes
+
+commit b95855c2701f5e95fa3654daf88261b7742f93be
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 20:29:33 2013 -0500
+
+    finish insert the relation of two entities tables
+
+commit 5a2c6e2d2c172a7ecdecfcf37f59b976d4821109
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Tue Apr 2 20:29:12 2013 -0500
+
+    Updated unit tests
+
+commit d9e24096aed28cf167de83a8160377b82ec9f7cf
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 20:28:48 2013 -0500
+
+    update the export order to match the xsd
+
+commit 2913076d2e76ea8f71657a34846ba778c2303a20
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 20:14:17 2013 -0500
+
+    ExernalResource done + import module with *
+
+commit 85638d5fcd80b874211019fb2b0257a2f7549320
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Apr 2 19:52:24 2013 -0500
+
+    Change the imports from the module Query and Login using import *
+
+commit 8bc155e81c06a383eb141362726f062db4376a9f
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Tue Apr 2 19:49:44 2013 -0500
+
+    Updated unit tests
+
+commit 3762b01b17db62e30239ebc3576642a29bf1a403
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 18:50:11 2013 -0500
+
+    external resources for crisis done
+
+commit 181b680e97066bec56cc91ec2cecc2d3eafcc228
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 18:16:57 2013 -0500
+
+    exprted WaysToHelp table
+
+commit 9ae65fa4d2ffa69926fa9215b7d10e17134f1207
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 17:59:38 2013 -0500
+
+    HumanImpact table imported
+
+commit f0efc8a443fc5db55796dbc8c724f4adcac627b7
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Apr 2 01:47:36 2013 -0500
+
+    Location table export finished
+
+commit 73f9f89347822a099e15ca990405bb09aac0459c
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 22:29:44 2013 -0500
+
+    finish insert ExternalResource
+
+commit 152f2eaf3140ec43b07ac40e3bdb97bb729a0bdc
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 1 22:26:13 2013 -0500
+
+    removed accidental temporary files for acceptance tests
+
+commit 90cc3b77a94d6d1f0d95c9f8846f5b839584028c
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 1 22:22:03 2013 -0500
+
+    created 3 acceptance tests
+
+commit e4d9087678e2adc7ba683ce10a3676687c973fab
+Merge: 346ca42 6054c84
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 1 22:19:56 2013 -0500
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit 6054c84c724f1d23a7a0494fd5d7cba350daefcb
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Mon Apr 1 22:19:48 2013 -0500
+
+    Added unit tests
+
+commit 346ca424c7f95c08bd6ae8f1f0b03e3af718d64a
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 1 22:19:26 2013 -0500
+
+    location for crisis
+
+commit d60f310804fcef2738b9813764e68c308dd12a73
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 22:04:06 2013 -0500
+
+    finish insert WaysToHelp
+
+commit fcfca4a4a37dd22a53cc09ab5047dc206f727907
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 21:57:19 2013 -0500
+
+    finish insert HumanImpact
+
+commit 94a74ed867451b4c36a80484a42560c9358feff2
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 21:39:02 2013 -0500
+
+    finish insert Locations
+
+commit 871276e2a62daa83edf3a4d8600d22b7ad83f521
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 1 21:38:36 2013 -0500
+
+    export Person table
+
+commit a7dbb0345ef162ac07fa7a547afe461764b3db77
+Merge: c5bb52f 9baf9b4
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 21:33:51 2013 -0500
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit 9baf9b4525ad495ba738bb2135a56d0de86909ac
+Merge: 6715c56 43e05bd
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 1 21:33:11 2013 -0500
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+
+commit 6715c567a0c3f418cbd0d8a2e153be16dc7345d3
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 1 21:32:36 2013 -0500
+
+    removed double quotes in Soviet Russia
+
+commit c5bb52f148c89d9b5d2228cc858e369d99c09be7
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 21:21:36 2013 -0500
+
+    slightly changed insert of Person to use get_text(.) to make it more robust
+
+commit 43e05bd97c88872148805cab9adfd8244b4a6730
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Mon Apr 1 21:21:13 2013 -0500
+
+    Added some unit tests
+
+commit 7aad22ddbfc8f50a989a87af6198f676214ae280
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 1 21:19:10 2013 -0500
+
+    Organization table is exported
+
+commit b70c7c32c0934b920aa60e799ed38eed9d40c088
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 21:18:22 2013 -0500
+
+    finish insert Location of Crisis
+
+commit 905d86495893b7374d4d215674d91433b7b05f96
+Merge: 3c058dc 21b26ef
+Author: FrankyPrado <fjprado3@hotmail.com>
+Date:   Mon Apr 1 20:57:55 2013 -0500
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+
+commit 3c058dcf40b89cf12842d4b8a9df93b70d938961
+Author: FrankyPrado <fjprado3@hotmail.com>
+Date:   Mon Apr 1 20:56:16 2013 -0500
+
+    Converted UML jpeg to pdf closes #39.
+
+commit 21b26ef2a4fbf5eb680a3d94add36aefabb038f9
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 20:52:54 2013 -0500
+
+    finish insert Person
+
+commit f186fd0700ea5534c60fc7dd8c955e3787b8a28e
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 1 20:52:22 2013 -0500
+
+    finished UML to include columns closes #33
+
+commit 7142002705c5d96ac135fd73f70475f2864246c4
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 1 20:34:09 2013 -0500
+
+    export crisis table
+
+commit d653797ed2181b500a10a0d73fe1a6e1acfbf058
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 20:31:56 2013 -0500
+
+    finish insert Organization, encode every query to ascii before firing them since some of the text from the xml might be unicode
+
+commit d838e5b12909d501c98811f1b5e6a5d56e3f9f5d
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 1 20:27:03 2013 -0500
+
+    found unicode character '-' in description for al-qaeda closes #40
+
+commit 616f7a8dd180ddb0e48ed29d850734cc66acff3d
+Author: Collin Murphy <cbmurphy@utexas.edu>
+Date:   Mon Apr 1 20:22:08 2013 -0500
+
+    Added acceptance test (not working yet)
+
+commit 592a358fe1de4f157577ef9bd16b9329826a73e9
+Merge: 1fb09ee e104334
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 1 20:14:42 2013 -0500
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+
+commit 1fb09ee0decd9268f63a148dac005008a7b99e69
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Apr 1 20:14:03 2013 -0500
+
+    replaced all double quotes with &apos; closes #38
+
+commit e104334e481e2f9452d6d98d5c25fe8d364c1001
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 19:48:04 2013 -0500
+
+    update the table schemas, so some columns are NOT NULL now and are consistent with the xsd.
+
+commit e67bba67b394dd8d8464002b8b8f3cccf726ca7f
+Merge: bb91024 fcf58d5
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 19:44:17 2013 -0500
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit bb91024be6f062439c26d892c5c1f14e00321c2c
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Apr 1 19:43:59 2013 -0500
+
+    make a tool function get_text() to condense the code
+
+commit fcf58d57eb51035fe26a46d6e847bf1700d08a7f
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Apr 1 19:40:15 2013 -0500
+
+    pretty print of the et
+
+commit b1199f6bdb949d4d0c80c931ceeaefb0b7393b84
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 31 23:28:26 2013 -0500
+
+    export for CrisisKind, OrganizationKind and PersonKind
+
+commit 96a9f9bb8c5f0dbdb617ef9dc06aaf11638995ec
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 19:38:49 2013 -0500
+
+    finish insert Crisis, add comments and change the place of quotation
+
+commit 0f15f822020abd9d34b3f7449d84c94631750a16
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 19:18:44 2013 -0500
+
+    separate date and time for crisis and change the type of economicImpact to string
+
+commit 112767268d6b152c5a56b427495c6ac14b206f13
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 18:54:00 2013 -0500
+
+    finish insert OrganizationKind and PersonKind
+
+commit 954b7b2fb57f43f72a5d2b13e61040384a96bbca
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 18:43:33 2013 -0500
+
+    escape the query
+
+commit 7311b2cd43162df179f4dfe3bcac4840fa5f9571
+Merge: f5f827c 357840a
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 18:42:51 2013 -0500
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit 357840adff60a86d897f691f8617725e423abf82
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Sun Mar 31 18:41:45 2013 -0500
+
+    replaced double quotes with single quotes in text
+
+commit f5f827c8fe9eba2c2fda6be9a26bd25d1c47c9a6
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 18:34:04 2013 -0500
+
+    complete the inserting of CrisisKind
+
+commit 97f3b17128433ed86bf4927d53ca954f781d9d88
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 18:11:29 2013 -0500
+
+    make description of XXkind not null
+
+commit 79d14b377ba4098dc8d8aea0bd1bde1b7581cfbd
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 31 17:41:30 2013 -0500
+
+    clean up login
+
+commit aa60db16980af9d99c082a626d6b752f51777175
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 31 17:39:12 2013 -0500
+
+    two utility scripts from the class auto login
+
+commit 16c7d7deccc7e103804dbd836d0e4e1ddade3d28
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Sun Mar 31 17:16:20 2013 -0500
+
+    changed names to match general format closes #22
+
+commit 2e386f3ed8ca2f04a9371f3fb9b1dda246a5f3af
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 17:01:13 2013 -0500
+
+    change some of text into char(100)
+
+commit e2ef9bca0a7c484848d0d781c913b6f5a46525b1
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 16:47:00 2013 -0500
+
+    fix some syntax errors
+
+commit 022f407340a57ac4a86edecbf793a4f68247748a
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 16:36:20 2013 -0500
+
+    change the type of IDs from text to char(100)
+
+commit c8248074cdb6d05974d5447ccc086358d5e1beb9
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 31 16:33:47 2013 -0500
+
+    rename the sql file for creating tables
+
+commit fa9f9711735de54d772c2603c116cda54bb87001
+Author: FrankyPrado <fjprado3@hotmail.com>
+Date:   Sun Mar 31 13:56:29 2013 -0500
+
+    Finished fixing the keys and key references.
+
+commit e0e4169d1dfef3584e40deec9af69a298113c66d
+Author: Collin Murphy <cbm772@cs.utexas.edu>
+Date:   Mon Mar 25 21:48:05 2013 -0500
+
+    Added insertion file
+
+commit dc76bba00cd1088a1ff80815a17d7381ed8857cc
+Author: FrankyPrado <fjprado3@hotmail.com>
+Date:   Mon Mar 25 21:34:22 2013 -0500
+
+    Fixed some of the ID's to match the new xsd; not done with all of them.
+
+commit 86cb48a00cdc5752431c9cc02ce4a785469dd933
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Mar 25 21:31:32 2013 -0500
+
+    first UML diagram in jpg
+
+commit 69b5b6040be820e8796dfd20c5c03bfb8cd2e773
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 25 21:24:56 2013 -0500
+
+    add droping table statements for sql
+
+commit 5be05e3528bddf1a72a42262de5e70caf3e30c1a
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 25 21:08:31 2013 -0500
+
+    finish scratch of table creation code for db
+
+commit ef78b9d1e256de120e3c6defbcc6d66cbd9f9cc4
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 25 20:52:25 2013 -0500
+
+    sq scratch for db
+
+commit 928a48db74d9bed47d530d5c6d61b87007161228
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 17 12:30:44 2013 +0800
+
+    consolidate the ExternalResources type
+
+commit 9aff2a9fe03db60cc89b4e38e77c232ce948eb73
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 17 09:53:03 2013 +0800
+
+    add comment for ID guideline
+
+commit 98a51fceed02238cf1ba2fd16171e2d09da74093
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 12 15:01:04 2013 -0500
+
+    fix comments
+
+commit c5d7525805fd516a905d1aac9b729794d1e70cb0
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 12 14:57:22 2013 -0500
+
+    add more comments to XSD
+
+commit 39defbb441652af90f05957fa159b1b9031fa61d
+Author: Collin Murphy <cbmurphy@utexas.edu>
+Date:   Mon Mar 11 13:51:38 2013 -0600
+
+    Added comments and restructured XSD
+
+commit 7689c06e69063230d20dc80961bd38d2ddfdaa5a
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Wed Mar 6 20:47:26 2013 -0600
+
+    clean up + log
+
+commit 626a5070cd38cf038d8b91007198b668829ef992
+Merge: 2532b89 dfc016f
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Wed Mar 6 20:36:04 2013 -0600
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+    
+    Conflicts:
+    	WCDB1.xml
+
+commit 2532b8922006917879abbeb89f89b12e144e2546
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Wed Mar 6 20:23:53 2013 -0600
+
+    update the xml for the new xsd
+
+commit dfc016f73a3db982e9a6d8275795bfea1dd3ee13
+Author: Francisco Prado III <fjprado3@cs.utexas.edu>
+Date:   Wed Mar 6 20:12:48 2013 -0600
+
+    change the schema so that RelatedPerson's are grouped in RelatedPersons, similar for organization and cirsis
+
+commit fd7fdf79238b2abba4664e24beac1e7c51efedc3
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Mar 6 19:50:09 2013 -0600
+
+    Change ID for Reba McEntire and change ID for Terrorist Organization kind to TORG
+
+commit 6951392b2ea8c7f4d3efa68ec8313ab41a10ad51
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Wed Mar 6 13:00:39 2013 -0600
+
+    Change location types to not unbounded
+
+commit d15d8d574cc2802107eebca742928a4db49bb5cf
+Author: Collin Murphy <cul8r2fast4u@collin-murphys-mac-pro.local>
+Date:   Wed Mar 6 12:11:10 2013 -0600
+
+    Changed bounds for location elements in XSD and removed empty location tags in XML
+
+commit ece7ed903131ddc0f1bc051b89de8a1584e01b7f
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:55:35 2013 -0600
+
+    remove extra ImageURL element from PersonType in .xsd file
+
+commit b75974ab49af941100b6233322497895a1c1257d
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:53:03 2013 -0600
+
+    forgot backslash in closing tag
+
+commit 2b1d965ab0c3b58cf97a2b407ef5c4e5d684269e
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:52:00 2013 -0600
+
+    enclose all URLs with a ExternalResources element
+
+commit 4b7d77776430580fdf5cccc2bc052c28d2e67146
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:40:32 2013 -0600
+
+    Misspelled tag name
+
+commit fe30088fcfc47a6229f14f662f98f451c7ef26f2
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:39:35 2013 -0600
+
+    decompose name element
+
+commit 23b53df5b104d877acc59e850e34b1e708932c2a
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Tue Mar 5 23:15:06 2013 -0600
+
+    slight changes to the refs of crises
+
+commit 181fdeafef75ea6d4b6163a2558307b5c6feafda
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 22:06:09 2013 -0600
+
+    updated crisis with Franky's file
+
+commit 1dcce4560d0b579240dd329dc5e396f6d0ac1748
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 21:48:19 2013 -0600
+
+    fixed all the type and mismath. now the xml validates!!!
+
+commit c993c9dd7334ccb5d578500546d9760a374ab8a1
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 21:22:21 2013 -0600
+
+    added missing crisisKindIdent
+
+commit e2f85195971fa35573dade0ff0a5185ac04a3f07
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 20:51:55 2013 -0600
+
+    merged crisis info Franky added
+
+commit 76b306f32548af9fb78f45cba84441e2c5c0919c
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 16:58:12 2013 -0600
+
+    matched some IDs and commented off some IDrefs that is not part of our db
+
+commit 7ac9202b559a81c373241af9e32039db1575b056
+Author: Collin Murphy <cbmurphy@utexas.edu>
+Date:   Tue Mar 5 15:17:39 2013 -0600
+
+    Fixed indentation errors
+
+commit 78c0645f42d370e531e559d136f99fa5cdaffeae
+Author: Collin Murphy <cbmurphy@utexas.edu>
+Date:   Tue Mar 5 15:08:34 2013 -0600
+
+    Added references to persons
+
+commit a70e8b6c917bbe80321a1510023da53805276987
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 14:31:23 2013 -0600
+
+    fixed some validation error and added risisKindIdent definitions closes
+
+commit e9b92a048bebbddc2f90f72f81968cb64d42546b
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 13:12:53 2013 -0600
+
+    fixed Date Time and Location error closes #20
+
+commit a08ae4f8b5754e7bec237d8b4aaa54cca655b162
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Tue Mar 5 12:49:16 2013 -0600
+
+    fix escape sequences in some URL closes #19
+
+commit 410a4b11872526bfdd08d21a7371babf4682735e
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 21:27:27 2013 -0600
+
+    Add all organizations to the xml
+
+commit c30e7d92161bad753c22c7345e40fd777de14969
+Merge: 850a2ad a205d2f
+Author: FrankyPrado <fjprado3@hotmail.com>
+Date:   Mon Mar 4 21:25:05 2013 -0600
+
+    Merge branch 'master' of https://github.com/DanielMeng/cs327e-wcdb
+
+commit 850a2ad39cf76208b1a1cdb49282f86e9a17ec3b
+Author: FrankyPrado <fjprado3@hotmail.com>
+Date:   Mon Mar 4 21:24:01 2013 -0600
+
+    Added Persons and Organizations, missing some Crises
+
+commit a205d2f79807f0afc4345bcb12b205b6acf6d084
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Mar 4 20:56:58 2013 -0600
+
+    Jianyong misspelled my name
+
+commit 095f137c3bc5099eccb2fb2b49ef52124912c761
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Mar 4 20:52:41 2013 -0600
+
+    Updated WCDB1.html for two new functions
+
+commit f6266e04ce5ac446307f04cb94cd0d22bdebb3f4
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Mar 4 20:49:40 2013 -0600
+
+    Updated TestWCDB1.out
+
+commit 785bb92fdbd3e5604e87a4c8107ac80f5b839a99
+Author: Shirley Li <surely@cs.utexas.edu>
+Date:   Mon Mar 4 20:46:59 2013 -0600
+
+    Changed WCDB1.py to two functions. Added unit tests for both.
+
+commit 88c69e3e064532657917b34743e400e90f85e575
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 19:49:51 2013 -0600
+
+    Change datetime of crisis to a startdatetime and an optional endatetime, each datetime have a mandatory date and an optional time
+
+commit b50fb3b31a81b0ef4613f2631356958ef9b45151
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 19:44:56 2013 -0600
+
+    correct pattern for PhoneNumber
+
+commit f3dc0cbe409de8117f18744f74cffd03dccd7b66
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 19:20:39 2013 -0600
+
+    using question mark for the pattern 'this or nothing' for Email and PhoneNumber
+
+commit 64815fb2e89f7b3768badd54a5b2a35634cb05e3
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 18:32:53 2013 -0600
+
+    Add patterns for phone/fax number and validate, make phone/fax/email in contact to be a list of zero or more. closes #17
+
+commit 7df73aa47a85e9a65e3ed5943d7a8c5e57656d90
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 18:16:47 2013 -0600
+
+    Add pattern for Email and validate, closes #16
+
+commit 6b0c75b567b3ea5a9c5237e719ef19eeddda28a4
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 18:15:10 2013 -0600
+
+    Add organization to the dummy xml, closes #18
+
+commit 4d4ed6e0dcbab072c5e6c04ea478215f27fad893
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Mon Mar 4 17:05:51 2013 -0600
+
+    updated the readme with info for the google form
+
+commit d244722b9a94fc145cbb10349fd9a3f6125accbf
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 15:47:13 2013 -0600
+
+    create pattern for URLs, closes #15
+
+commit 26754a34131cc73d218b9c3a5a7d4ebd7d5901ee
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 15:17:16 2013 -0600
+
+    add RelatedXXX to dummy xml and validate. closes #13, closes #14
+
+commit b99f85adc4dd663c5c4e3c84748b155d40c8fc62
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 14:54:22 2013 -0600
+
+    extend the dummy xml and slight changes to xsd, and they validate without related persons/organizations added.
+
+commit 0a9e38ccb44516702c988657396395c52e19bad6
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 14:19:36 2013 -0600
+
+    According to project of previous years, move postal address to contact info and make location to be only vague description
+
+commit b30f907e558c1346cfc151cb5b6942411bf22fdb
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 13:49:28 2013 -0600
+
+    add the child element Description to XXXKind types to make more sense to use key/keyref
+
+commit dee839febe9296bad23a261307bddc36498311cc
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Mon Mar 4 13:46:06 2013 -0600
+
+    change the order or Organization and Person to make it consistent
+
+commit 0309679e03d292c1ad00fec0e891ed8a95525ad5
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 23:24:04 2013 -0600
+
+    added some tags in the dummy xml
+
+commit 141105cdb6fe9d1116fa2715b3afa30508072f20
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 23:22:12 2013 -0600
+
+    added ID attribute to the CrisisType, PersonType and OrganizationType
+
+commit 8b2070a7a6884aeaadd9be99e7c6985d078ebab3
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 18:15:20 2013 -0600
+
+    keyref tag name update. now validates with xmllint
+
+commit ea0bd4670eb3c8e285aea606b7a9ed7e351003a5
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:39:26 2013 -0600
+
+    added a dummy xml file
+
+commit 83e2ec10ec41d4db7f726f5228906d4e1d11ce06
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:38:21 2013 -0600
+
+    fixed a typo
+
+commit ab4f0202358471765612c231197a4350ac43af13
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:30:07 2013 -0600
+
+    additional update for validation
+
+commit 5fc04500738009d3d4c041e5425fec58fc340e30
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:17:50 2013 -0600
+
+    fix tag matches and attribute for validation
+
+commit 56530a4f80f06117fca5c9c03bec10a6686291f2
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 17:02:18 2013 -0600
+
+    added validation scripts to the makefile
+
+commit 512354d6ddc6e3358a318950183169b8bcac1b86
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 3 16:30:49 2013 -0600
+
+    fix merge issue
+
+commit f1bc2415dce302a33e73933ff7b038cceb1cd558
+Merge: 82dc194 fe6c443
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 3 16:27:48 2013 -0600
+
+    merge
+
+commit 82dc194e24a7cb632661780edd0a4441dbdf7880
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Sun Mar 3 16:26:40 2013 -0600
+
+    finish draft of xsd schema
+
+commit fe6c4438fc23678b4f0d3dd81bb579b84d8c0061
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Sun Mar 3 14:57:18 2013 -0600
+
+    minor syntax update
+
+commit fccb732e20703826b81f12893866ac18ac6df1e8
+Merge: 922a36f 34a8774
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Thu Feb 28 21:26:25 2013 -0600
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit 922a36fb260dc26a714e8f7c2509e9cf0518629f
+Author: Xiaolong Li <lxlstudent@gmail.com>
+Date:   Thu Feb 28 21:26:07 2013 -0600
+
+    progress on xsd file
+
+commit 34a87746c421a6da442952c55aa954a6dd1be3b0
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 21:11:20 2013 -0600
+
+    doc closes #7
+
+commit 8b2d7b3c921909a2d4814d36c8ba6fec77d1a0ee
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 21:09:38 2013 -0600
+
+    acceptance tests closes #4
+
+commit f04a3f697fb0910e2b65cdfcb7d0a38e1713d965
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 20:41:56 2013 -0600
+
+    unit tests and output closes #3
+
+commit 29178db560681583c9dff652126473087daa16ee
+Merge: 9c683e8 a095886
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 20:34:29 2013 -0600
+
+    Merge branch 'master' of github.com:DanielMeng/cs327e-wcdb
+
+commit 9c683e8ba5af6cb74f0ff3c544510b26eb44e991
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 20:34:05 2013 -0600
+
+    created WCDB1.py closes #6
+
+commit a0958869ac9b2ca4c6eb94b10756482d516ab117
+Author: Collin Murphy <cbmurphy@utexas.edu>
+Date:   Thu Feb 28 20:17:39 2013 -0600
+
+    Initial push for XSD
+
+commit 168102c5cfe8127accb7331f86a09038a422198f
+Author: Jianyong Meng <mengjy02@gmail.com>
+Date:   Thu Feb 28 19:50:03 2013 -0600
+
+    added makefile and RunWCDB1.py
+
+commit decb902a696d8872498b9f5a3e2e2e3776af985e
+Author: Daniel Meng <jmeng@cs.utexas.edu>
+Date:   Thu Feb 28 17:26:30 2013 -0800
+
+    Initial commit
